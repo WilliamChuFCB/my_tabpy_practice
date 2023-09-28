@@ -14,3 +14,5 @@ The final dashboard contains several parts:
 - Histogram: Since area, compactness and concavity represent three different and important dimensions of the cancer cells, I created histograms of these three varialbes respectively grouped by cancer type.
 - Scatter Matrix: I also used area, compactness and concavity to produce a scatter matrix plot, which vividly display the relationship among these three variables and the data distributions of different cancer types.
 - Prediction: In this part, user can enter the values to all the 10 variables regarding cancer cells. Then the calculated field will call the pre-trained SVM model established in a Python notebook and predict the cancer type. Finally, the dashboard also provides a small paragraph of diagnostic advice based on the predicted cancer type.
+
+![](./screenshot.png)
